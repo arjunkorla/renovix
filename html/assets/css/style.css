@@ -72,6 +72,10 @@ img {
   height: auto;
 }
 
+.text-white{color: #fff !important;}
+
+.text-orange{color: #f59310 !important;}
+
 /*--------------------------------------------------------------
 #0.2    Global Elements
 --------------------------------------------------------------*/
@@ -3243,7 +3247,7 @@ img {
 
 .header-style-5 .lower-topbar .awards > div {
   min-height: 43px;
-  padding-left: 58px;
+  padding-left: 40px;
   position: relative;
   float: left;
 }
@@ -3263,7 +3267,6 @@ img {
 }
 
 .header-style-5 .lower-topbar .awards > div:first-child {
-  margin-right: 40px;
 }
 
 @media (max-width: 767px) {
@@ -3275,10 +3278,11 @@ img {
 .header-style-5 .lower-topbar .awards .icon {
   position: absolute;
   left: 0;
-  top: -8px;
+  font-size: 25px;
+  color: #f59310;
 }
 
-.header-style-5 .lower-topbar .awards .icon .fi:before {
+.header-style-5 .lower-topbar .awards .icon .fi:before .fa::before{
   font-size: 44px;
   font-size: 2.93333rem;
   color: #f59310;
