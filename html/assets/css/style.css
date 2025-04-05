@@ -43,6 +43,10 @@ h6 {
   margin: 0 0 0.4em;
 }
 
+.color_active{
+  color: #fff !important
+}
+
 ul {
   padding-left: 0;
   margin: 0;
