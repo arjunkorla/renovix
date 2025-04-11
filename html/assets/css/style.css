@@ -76,6 +76,20 @@ img {
   height: auto;
 }
 
+.clear20x{
+  clear: both;
+  height: 20px;
+}
+
+.clients img{
+  border: 2px solid #e9e9e9;
+}
+
+.clients img:hover{
+  border: 2px solid #199fb1;
+  transition: ease-in 0.2s;
+}
+
 .text-white{color: #fff !important;}
 
 .text-orange{color: #199FB1 !important;}
